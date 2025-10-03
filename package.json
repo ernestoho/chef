@@ -6,6 +6,9 @@
   "sideEffects": false,
   "type": "module",
   "version": "0.0.7",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "deploy": "npm run build",
     "build": "remix vite:build",
